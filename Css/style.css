@@ -1,0 +1,355 @@
+body{
+
+    padding: 64px 0 0
+}
+/*S Frame*/
+button{
+    cursor: pointer;
+}
+.sec-pad{
+    padding: 50px 0;
+}
+.bold{
+        font-weight: bold;
+    
+    
+}
+
+img{
+    width:100%;
+}
+/*E Frame*/
+
+
+
+/******Start OverWriting Bootstrap*****/
+
+/*S Navbar*/
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show{
+        background-color: #e41b17;
+}
+.navbar{
+    padding-bottom: 0;
+    padding-top: 0;
+    min-height: 64px;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: #aaa;
+}
+
+.navbar-dark .navbar-brand{
+    color: #e41b17;
+    font-weight: bold;
+    font-size: 1.7rem
+}
+.nav-link {
+padding: 20px;
+}
+.dropdown-menu{
+    background-color: #020817c9;
+    border-top: 3px solid #e41b17;
+    margin: 0;
+    min-width: 200px;
+}
+.dropdown-item{
+    color: #fff;
+    padding: 13px 20px;
+    -webkit-transition: .3s all ease-in-out;
+    -o-transition: .3s all ease-in-out;
+    transition: .3s all ease-in-out
+}
+.dropdown-item:focus, .dropdown-item:hover{
+    background-color: #e41b17;
+    color: #fff;
+    padding-left: 30px;
+}
+.navbar-expand-lg .navbar-collapse{
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+}
+.dropdown-divider{
+    border-top: 1px solid #a00707;
+}
+/*E Navbar*/
+
+/*S Carousel*/
+
+.carousel-caption{
+    bottom: 22%;
+    background-color: rgba(3,3,3,.3);
+    padding-left: 20px;
+    padding-right:20px;
+}
+.carousel-indicators li{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: transparent;
+    border:1px solid #333;
+    cursor:pointer;
+}
+.carousel-indicators li.active{
+      background-color: #e41b17;
+     width: 17px;
+    height: 17px;
+}
+/*E Carousel*/
+
+/*S About*/
+
+.about h1 span{
+    color: #e41b17;
+}
+/*E About*/
+
+/*S Features*/
+
+.features{
+    background-color: #eee;
+}
+.features h2{
+    margin-bottom: 40px
+}
+.features .feat{
+    margin-bottom: 20px;
+}
+.features .feat span i{
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #666
+}
+
+/*E Features*/
+
+/*S Testimonials*/
+
+.testimonials h2{
+    margin-bottom: 20px;
+    
+}
+.testimonials .carousel-indicators{
+    bottom: 0;
+    top: 100%;
+}
+/*E Testimonials*/
+
+/*S Prices*/
+
+.prices{
+    background-color: #eee
+}
+.prices h2{
+    margin-bottom: 30px
+}
+.prices .boxx{
+    background-color: #fff;
+    margin-bottom: 30px;
+    padding: 20px 0
+}
+.prices .boxx h5{
+    background-color: #eee;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    font-size: 1.1em;
+    -webkit-transition-duration: .9s;
+         -o-transition-duration: .9s;
+            transition-duration: .9s;
+}
+.prices .boxx:hover h5{
+    -webkit-transform: scale(1.2,1.2) rotate(720deg);
+        -ms-transform: scale(1.2,1.2) rotate(720deg);
+            transform: scale(1.2,1.2) rotate(720deg)
+}
+.prices .boxx ul li{
+    margin-bottom: 10px;
+}
+
+/*E Prices*/
+
+/*S Our Team*/
+
+.team{
+    min-height: 600px;
+    color: #fff;
+}
+.team h2{
+    font-weight: bold;
+    margin-bottom: 30px;
+    
+}
+.team .person{
+    margin-bottom: 40px;
+}
+.team .person h3{
+    margin-top: 10px;
+    color: firebrick;
+    font-weight: bold;
+}
+.team .person a{
+    color: #fff;
+}
+.team .person a:hover{
+    color: #e41b17;
+}
+.team .person a i{
+    font-size: 1.3rem;
+    color: #777;
+}
+.team p{
+    color: #777;
+}
+
+/*E Our Team*/
+
+/*S Subscribe*/
+
+.subscribe{
+    background-color: #eee;
+}
+.subscribe form{
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.subscribe h2{
+    color: #888;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+.subscribe p{
+    margin-bottom: 30px;
+}
+.subscribe form .form-control{
+    border-radius:0;
+}
+.subscribe form .form-control:focus{
+    border-color:  #252f31;
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 0.2rem  #252f31;
+            box-shadow: 0 0 0 0.2rem  #252f31;
+}
+.subscribe form .btn{
+    border-radius:0;
+}
+/*E Subscribe*/
+
+/*S Stats*/
+
+.stats{
+    background: url(../Photos/sec-bac2.jpg) no-repeat center center fixed;
+    min-height: 400px;
+    background-size: cover;
+}
+.stats .data{
+    background-color: rgba(2,2,2,.7);
+    color: #b6b5b5;
+    min-height: 400px;
+}
+.stats .data h2{
+    margin-bottom: 30px;
+}
+.stats .data .stat{
+    margin-bottom: 30px;
+}
+.stats .data .stat h3{
+    
+}
+.stats .data .stat i{
+    margin-bottom: 50px;
+}
+.stats .data .stat p{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+/*E Stats*/
+
+/*S Skills*/
+
+.skills h2{
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+.skills .skills-info h3{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.skills-progress{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 159px;
+    margin-bottom: 22px;
+}
+.skills-progress .progress{
+    height: 25px;
+}
+.progress-bar{
+    font-size:20px;
+    padding-right: 10px;
+    text-align: right;
+}
+/*E Skills*/
+
+
+/*S Clients*/
+
+.clients{
+    background-color: #eee;
+    padding-bottom:30px;
+    
+}
+.clients h2{
+    margin-bottom: 60px;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.clients ul li img{
+    width: 126px;
+    height: 28px;
+    opacity: .4;
+    margin-bottom: 20px;
+    -webkit-transition: 1s all ease-in-out;
+    -o-transition: 1s all ease-in-out;
+    transition: 1s all ease-in-out;
+}
+.clients ul li img:hover{
+    opacity: 1;
+}
+
+/*E Clients*/
+
+/*S Contact*/
+
+.contact{
+    background-color: red;
+    background: url(../Photos/back1.jpeg) no-repeat center center fixed;
+    background-size: cover;
+    background-blend-mode: luminosity;
+    color: #ddd;
+}
+.contact p{
+    margin-bottom: 30px;
+}
+.contact form textarea{
+    min-height: 93px!important;
+}
+
+/*E Contact*/
+/******End OverWriting Bootstrap*****/
